@@ -1,2 +1,3 @@
 # todo-react-ts-mobx
-todo using react, typescript, &amp; mobs 
+
+todo using react, typescript, &amp; mobs
