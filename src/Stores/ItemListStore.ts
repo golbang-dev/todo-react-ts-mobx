@@ -54,6 +54,7 @@ export default class ItemListStore {
     this.nextId = 4;
     this.itemList = initialList;
     this.members = 3;
+    this.sort();
   }
 
   insert = (newTitle:string, newContent:string):void => {
