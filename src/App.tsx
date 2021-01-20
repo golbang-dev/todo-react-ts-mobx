@@ -1,7 +1,17 @@
-import React from "react";
+import React from 'react';
 
-const App = () => {
-  return <div>ToDo</div>;
-};
+import Header from './Components/Header';
+import ToDoItemAddTemplate from './Components/ToDoItemAddTemplate';
+import ToDoItemList from './Components/ToDoItemList';
+import GlobalStyle from './Utils/GlobalStyle';
+
+const App = (): JSX.Element => (
+  <>
+    <GlobalStyle />
+    <Header />
+    <ToDoItemAddTemplate />
+    <ToDoItemList />
+  </>
+);
 
 export default App;
